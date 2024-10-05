@@ -1,7 +1,7 @@
 {
   "name": "portfolio25k",
   "version": "4.0.0",
-  "homepage": "https://kvsaimadhav.github.io/portfolio25k/",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,8 +17,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predploy": "CI=1 npm run build",
-    "deploy": "main -d  build"
   },
   "eslintConfig": {
     "extends": [
