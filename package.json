@@ -13,12 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d  build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predploy": "CI=1 npm run build",
-    "deploy": "gh-pages -d  build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": ["deploy", "@babel/plugin-proposal-private- property-in-object"]
+    "gh-pages": "deploy"
   }
 }
