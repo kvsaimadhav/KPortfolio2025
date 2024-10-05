@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predploy": "CI=1 npm run build"
+    "predploy": "CI=1 npm run build",
     "deploy": "npm deploy"
   },
   "eslintConfig": {
