@@ -30,7 +30,7 @@ function Project(){
               
         </div>
         <div class="ProjectBx">
-          <img src={image2} alt="alt="Course Project under Security Professor""/>
+          <img src={image2} alt="Course Project under Security Professor""/>
             <h2>Website for avoiding Phishing attacks through Client Puzzle</h2>
               <p>
                 Research consists of security course under Dr. Qi Liao, proposed for avoiding phishing attacks on 
