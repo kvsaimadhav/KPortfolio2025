@@ -17,8 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predploy": "CI=1 npm run build",
-    "deploy": "main -d build"
+    "predploy": "CI=1 npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,8 +35,5 @@
       "last 1 chrome version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies":{
-      "main": "deploy"
   }
 }
