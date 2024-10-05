@@ -1,7 +1,7 @@
 {
   "name": "portfolio25k",
   "version": "0.1.0",
-  "homepage": "https://kvsaimadhav.github.io/portfolio25k",
+  "homepage": "https://kvsaimadhav.github.io/portfolio25k/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": ["deploy", "@babel/plugin-proposal-private- property-in-object"]
+    "gh-pages": "deploy"
   }
 }
