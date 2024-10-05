@@ -63,10 +63,10 @@ function Contact()
                </div>
                <div class="projectCard">
                   <div class="projectBx">
-                     <a href="https://github.com/kvsaimadhav/ITC691-Research" rel="no-referrer no-opener" target="_blank"><img src={proInd} alt="Industrial Project"/></a>
-                     <a href="https://github.com/kvsaimadhav/ITC686-Research" rel="no-referrer no-opener" target="_blank"><img src={proBud} alt="Buddie Project"/></a>
-                     <a href="https://github.com/kvsaimadhav/ITC520-Research" rel="no-referrer no-opener" target="_blank"><img src={proRsrch} alt="Research Project"/></a>
-                     <a href="https://github.com/kvsaimadhav/CPS541-Research" rel="no-referrer no-opener" target="_blank"><img src={proDB} alt="Database Project"/></a>
+                     <a href="https://github.com/kvsaimadhav/ITC691-Research" rel="no-opener no-referrer" target="_blank"><img src={proInd} alt="Industrial Project"/></a>
+                     <a href="https://github.com/kvsaimadhav/ITC686-Research" rel="no-opener no-referrer" target="_blank"><img src={proBud} alt="Buddie Project"/></a>
+                     <a href="https://github.com/kvsaimadhav/ITC520-Research" rel="no-opener no-referrer" target="_blank"><img src={proRsrch} alt="Research Project"/></a>
+                     <a href="https://github.com/kvsaimadhav/CPS541-Research" rel="nno-opener no-referrer" target="_blank"><img src={proDB} alt="Database Project"/></a>
                   </div>
                </div>
             </td>
