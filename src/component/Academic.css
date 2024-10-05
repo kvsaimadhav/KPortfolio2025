@@ -1,0 +1,48 @@
+.Academic{
+  background-image: url('./images/academic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding:10px 20px;
+}
+
+.academicHeader h2{
+  font-size: 40px;
+}
+
+.academicContent{
+  margin: 10px;
+  padding-left: 20px;
+	display: flex;
+	justify-content: justify;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.academicContent .academicBx{
+	padding: 10px 20px;
+	background: rgba(8, 81, 106, 0.929);
+	color: rgba(0, 0, 0, 0.343);
+  margin: 20px;
+  max-width: 600px;
+	text-align: center;
+	transition: 0.5s;
+}
+.academicContent .academicBx:hover{
+	background: rgba(100, 2, 2, 0.411);
+  color: rgba(32, 30, 30, 0.611);
+}
+.academicContent .academicBx img{
+	max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+}
+.academicContent .academicBx h3{
+	font-weight: 500;
+}
+.academicContent .academicBx p{
+  padding: 5px 10px;
+  font-weight: 100;
+}
+.academicContent .academicBx:hover p{
+  color: whitesmoke;
+}

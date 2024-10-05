@@ -1,0 +1,110 @@
+.Work{
+  background-image: url('./images/work.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 20px;
+  z-index: -1;
+}
+.workHeader p{
+  font-size: 10px;
+  font-weight: 100;
+}
+.workContent{
+	display: flex;
+	justify-content: justify;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.workContent .workBxCurr{
+	padding: 8px 2px;
+	background: rgba(241, 196, 32, 0.504);
+	color: rgba(1, 10, 13, 0.701);
+  margin: 18px;
+  max-width: 400px;
+	text-align: center;
+	transition: 0.5s;
+}
+.workContent .workBxCurr:hover{
+	background: rgba(107, 149, 173, 0.881);
+  color: rgba(211, 222, 56, 0.619);
+  scale: calc(1.10);
+}
+.workContent .workBxCurr img{
+	max-width: 100px;
+  border-radius: 45%;
+}
+.workContent .workBxCurr h3{
+  font-size: 20px;
+	font-weight: 5000;
+}
+.workContent .workBxCurr p{
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: 100;
+}
+.workContent .workBxCurr:hover p{
+  color: whitesmoke;
+}
+
+.workContent .workBxICurr{
+	padding: 8px 2px;
+	background: rgba(241, 196, 32, 0.504);
+	color: rgba(1, 10, 13, 0.701);
+  margin: 20px;
+  max-width: 390px;
+	text-align: center;
+	transition: 0.5s;
+}
+.workContent .workBxICurr:hover{
+	background: rgba(107, 149, 173, 0.881);
+  color: rgba(211, 222, 56, 0.619);
+  scale: calc(1.10);
+}
+.workContent .workBxICurr img{
+	max-width: 300px;
+  border-radius: 50%;
+}
+.workContent .workBxICurr h3{
+  font-size: 20px;
+	font-weight: 5000;
+}
+.workContent .workBxICurr p{
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: 100;
+}
+.workContent .workBxICurr:hover p{
+  color: whitesmoke;
+}
+
+.workContent .workBxPrev{
+	padding: 8px 2px;
+	background: rgba(241, 196, 32, 0.504);
+	color: rgba(1, 10, 13, 0.701);
+  margin: 25px;
+  max-width: 410px;
+	text-align: center;
+	transition: 0.5s;
+}
+.workContent .workBxPrev:hover{
+	background: rgba(107, 149, 173, 0.881);
+  color: rgba(211, 222, 56, 0.619);
+  scale: calc(1.10);
+}
+.workContent .workBxPrev img{
+	max-width: 300px;
+  border-radius: 50%;
+}
+.workContent .workBxPrev h3{
+  font-size: 20px;
+	font-weight: 5000;
+}
+.workContent .workBxPrev p{
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: 100;
+}
+.workContent .workBxPrev:hover p{
+  color: whitesmoke;
+}

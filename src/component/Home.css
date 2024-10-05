@@ -1,0 +1,36 @@
+.Home{
+  padding: 15px 10px;
+  background-image: url('./images/bg.jpg');
+  z-index: 1;
+  max-height: 250px;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.para{
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.para p{
+  color: white;
+  padding-left: 40px;
+}
+
+.para p a{
+  background-color: transparent;
+  color: rgba(234, 192, 26, 0.885);
+}
+
+.para p a:hover{
+  color: rgba(238, 159, 11, 0.877);
+  scale: calc(1.20);
+}

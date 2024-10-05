@@ -1,0 +1,68 @@
+.Project{
+  background-image: url('./images/bg_project.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 100;
+  padding: 20px 10px; 
+}
+.heading h2{
+    text-align: center;
+    color: black;
+}
+
+.heading p{
+  color: black;
+  font-size: 16px;
+  padding: 15px 20px;
+  box-sizing: content-box;
+}
+
+.Project .content{
+	display: flex;
+	justify-content: justify;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.Project .content .ProjectBx{
+	padding: 15px 25px;
+	background: rgba(236, 194, 57, 0.586);
+	color: rgba(242, 200, 61, 0.919);
+  margin: 10px;
+  max-width: 600px;
+	text-align: center;
+	transition: 0.6s;
+}
+.Project .content .ProjectBx:hover{
+	background: rgba(135, 150, 226, 0.268);
+  color: rgba(253, 187, 35, 0.829);
+  scale: calc(1.2);
+}
+.Project .content .ProjectBx img{
+	max-width: 400px;
+  border-radius: 80%;
+}
+.Project .content .ProjectBx h2{
+  font-size: 25px;
+	font-weight: 500;
+  color: black;
+}
+.Project .content .ProjectBx p{
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: 100;
+}
+
+.Project .content .ProjectBx p a{
+  padding: 0px 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.Project .content .ProjectBx p a:hover{
+  color: rgba(101, 101, 98, 0.697);
+  scale: calc(1.2);
+}
+
+.Project .content .ProjectBx:hover p{
+  color:rgba(117, 119, 29, 0.833);
+}

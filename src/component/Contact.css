@@ -1,0 +1,85 @@
+.Contact{
+ background-image:  url('./images/contact.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.contactCard{
+	text-align: center;
+	color: black;
+}
+.contactTb{	
+  padding: 18px 15px;
+  color: black;
+  position: relative;
+}
+.contactCard p{
+  font-size: 40px;
+  color: black;
+  font-weight: 400;
+}
+.contactCard a{
+  color: black;
+  padding: 5px 10px;
+}
+.contactInfo{
+  color: black;
+  background-color: transparent;
+  font-weight: 400;
+}
+.contactInfoBx{
+	max-width: 300px;
+}
+.contactInfoBx .box{
+	padding: 2px 20px;
+	position: relative;
+	display: flex;
+}
+.contactInfoBx .box .text{
+	display: flex;
+	font-size: 12px;
+	color: black;
+	flex-direction: column;
+	font-weight: 300;
+}
+.contactInfoBx .box .text h3,p{
+    font-size: 16px;
+	color: black;
+	margin-bottom: 0;
+}
+.formBx{	
+  color: black;
+  font-size: 8px;
+  font-weight: 200;
+}
+.formBx form label{
+	vertical-align: top;
+}
+.formBx form input,
+.formBx form textarea{
+	font-size: 12px;
+	background: rgba(58, 158, 151, 0.693);
+	color: black;
+}
+.formBx form textarea{
+	vertical-align: top;
+	cursor: pointer;
+	min-height: calc(1.5);
+}
+.formBx form input:placeholder,
+.formBx form textarea:placeholder{
+	font-size: 10px;
+	color: #1b6f78d6;
+}
+.formBx form input[type="submit"]{
+	background: #09831fd7;
+	color: whitesmoke;
+	cursor: progress;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.projectLink{
+	padding-left: 20px;
+}
+.projectCard{
+	padding-left: 20px;
+}
