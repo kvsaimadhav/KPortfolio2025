@@ -14,16 +14,16 @@ function Menu()
   return(
     <div className="Menu">
      <ul className="menu">
-         <li><a href="#home" rel="no-referrer no-opener">Home</a></li>
-         <li><a href="#work" rel="no-referrer no-opener">Work</a></li>
-         <li><a href="#project" rel="no-referrer no-opener">Project</a></li>
-         <li><a href="#academic" rel="no-referrer no-opener">Academic</a></li>
-         <li><a href="#contact" rel="no-referrer no-opener">Contact</a></li>
-         <li><a href="#" rel="no-referrer no-opener">Documents</a>
+         <li><a href="#home" rel="no-opener">Home</a></li>
+         <li><a href="#work" rel="no-opener">Work</a></li>
+         <li><a href="#project" rel="no-opener">Project</a></li>
+         <li><a href="#academic" rel="no-opener">Academic</a></li>
+         <li><a href="#contact" rel="no-opener">Contact</a></li>
+         <li><a href="#" rel="no-opener">Documents</a>
             <ul class="doc">
-              <li><a href={resume} rel="no-referrer no-opener" target="_blank">Resume</a></li>
-              <li><a href={cv} rel="no-referrer no-opener" target="_blank">Curriculum Vitae</a></li>
-              <li><a href="#" rel="no-referrer no-opener">Certifications</a>
+              <li><a href={resume} rel="no-opener no-referrer" target="_blank">Resume</a></li>
+              <li><a href={cv} rel="no-opener no-referrer" target="_blank">Curriculum Vitae</a></li>
+              <li><a href="#" rel="no-opener no-referrer">Certifications</a>
                 <ul class="cert">
                   <li><a href={aws} rel="no-referrer no-opener" target="_blank">Amazon Web Services</a></li>
                   <li><a href={oracle} rel="nno-referrer o-opener" target="_blank">Oracle</a></li>
