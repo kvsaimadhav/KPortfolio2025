@@ -1,7 +1,7 @@
 {
   "name": "portfolio25k",
   "version": "4.0.0",
-  "homepage": "/",
+  "homepage": "/portfolio25k/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "CI=1 npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
