@@ -1,6 +1,6 @@
 {
   "name": "portfolio25k",
-  "version": "0.1.0",
+  "version": 4.0.0",
   "homepage": "https://kvsaimadhav.github.io/portfolio25k/",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predploy": "CI=1 npm run build",
-    "deploy": "gh-pages -d  build"
+    "deploy": "main -d  build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "deploy"
+    "main": "deploy"
   }
 }
