@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "main": "@babel/plugin-proposal-private- property-in-object"
+    "gh-pages": ["deploy", "@babel/plugin-proposal-private- property-in-object"]
   }
 }
