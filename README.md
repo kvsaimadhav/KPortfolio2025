@@ -1,4 +1,3 @@
-# Readme for Netlify App to work
 <!DOCTYPE html>
 <html lang="en">
   <head>
