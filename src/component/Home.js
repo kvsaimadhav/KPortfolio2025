@@ -9,7 +9,7 @@ function Home()
       <table className="table">
        <tr>
         <td className="image">
-          <img src={Photo} alt="Self Photo"/>
+          <img src={Photo}/>
         </td>
         <td className="para">
           <p>
