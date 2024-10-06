@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "unset CI && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "CI=1 npm run build",
@@ -36,8 +36,5 @@
       "last 1 chrome version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    
   }
 }
