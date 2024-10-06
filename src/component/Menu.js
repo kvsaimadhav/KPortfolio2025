@@ -21,12 +21,12 @@ function Menu()
          <li><a href="#contact" rel="no-opener">Contact</a></li>
          <li><a href="#" rel="no-opener">Documents</a>
             <ul class="doc">
-              <li><a href={resume} rel="no-opener" target="_blank">Resume</a></li>
-              <li><a href={cv} rel="no-opener" target="_blank">Curriculum Vitae</a></li>
-              <li><a href="#" rel="no-opener">Certifications</a>
+              <li><a href={resume} rel="no-opener no-referrer" target="_blank">Resume</a></li>
+              <li><a href={cv} rel="no-opener no-referrer" target="_blank">Curriculum Vitae</a></li>
+              <li><a href="#" rel="no-opener no-referrer">Certifications</a>
                 <ul class="cert">
-                  <li><a href={aws} rel="no-opener" target="_blank">Amazon Web Services</a></li>
-                  <li><a href={oracle} rel="no-opener" target="_blank">Oracle</a></li>
+                  <li><a href={aws} rel="no-referrer no-opener" target="_blank">Amazon Web Services</a></li>
+                  <li><a href={oracle} rel="nno-referrer o-opener" target="_blank">Oracle</a></li>
                 </ul>
               </li>
             </ul>
@@ -34,8 +34,8 @@ function Menu()
          <li>
             <a href="#" rel="no-opener">connect</a>
             <ul class="profile">
-              <li><a href={linkINURL} rel="no-opener" target="_blank"><img class="linkedin" src={linkedin} referrerPolicy="no-referrer"/>&nbsp;LinkedIn</a></li>
-              <li><a href={gitHBURL} rel="no-opener" target="_blank"><img class="github" src={github} referrerPolicy="no-referrer"/>&nbsp;GitHub</a></li>
+              <li><a href={linkINURL} rel="no-referrer no-opener" target="_blank"><img class="linkedin" src={linkedin} referrerPolicy="no-referrer"/>&nbsp;LinkedIn</a></li>
+              <li><a href={gitHBURL} rel="no-referrer no-opener" target="_blank"><img class="github" src={github} referrerPolicy="no-referrer"/>&nbsp;GitHub</a></li>
             </ul>
          </li>
      </ul>

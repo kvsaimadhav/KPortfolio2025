@@ -1,6 +1,6 @@
 {
   "name": "portfolio25k",
-  "version": "0.1.0",
+  "version": "5.0.0",
   "homepage": "/",
   "private": true,
   "dependencies": {
@@ -13,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "CI=1 npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +36,8 @@
       "last 1 chrome version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "deploy"
   }
 }
