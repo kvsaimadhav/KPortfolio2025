@@ -38,4 +38,5 @@
   },
   "devDependencies": {
     "main": "@babel/plugin-proposal-private-property-in-object"
+  }
 }
