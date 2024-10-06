@@ -3,7 +3,7 @@ import linkedin from './images/linkedin.jpg';
 import github from './images/github.jpg';
 import resume from './docs/Resume.pdf';
 import cv from './docs/CV.pdf';
-import aws from './docs/AmazonWebServices.pdf';
+import aws from './docs/AWS.pdf';
 import oracle from './docs/Oracle.pdf';
 import './Menu.css';
 
