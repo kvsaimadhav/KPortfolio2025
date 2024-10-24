@@ -19,8 +19,9 @@ function Academic()
             &nbsp;that "How to apply lessons learnt in real-life situations. We feeling makes stronger and best. Also, I implement
             &nbsp;the same". However, I faced rejections, attended more than thousands' of interviews, got black mailed by companies
             &nbsp;and faith rejuvenated with family persons. That's how life throws you with problems. Once a good person said,
-            &nbsp;"Hope, faith and belief can never be Lost. It can only been ..". I asked myself, how to complete that sentence
-            &nbsp;Then, I graduated from public university and continued to think positively. I will never ever hurdle thoughts.,
+            &nbsp;"Hope, faith and belief can never be Lost. It can only be ..". I asked myself, how to complete that sentence
+            &nbsp;Then, I graduated from public university and continued to think positively. I will never ever hurdle thoughts.. &#9;
+            <a href="https://www.cmich.edu/" option="no-referrer no-opener" target="_blank"><i>ULink</i></a>
           </p>
         </div>
         <div class="academicBx">
@@ -31,7 +32,8 @@ function Academic()
             &nbsp;I got dual admits i.e., from Canada and later, I need not say. BITS Pilani is there for everyone and vise 
             &nbsp;versa. However, lessons learnt is that "How ever hard life situations be, You got to strive for betterment".
             &nbsp;I never expected those thoughts can be applied in basic skillset development. Thus, I thank everyone for
-            valuable support.,
+            valuable support..  &#9;
+            <a href="https://www.bits-pilani.ac.in/" option="no-referrer no-opener" target="_blank"><i>CLink</i></a>
           </p>
         </div>
       </div>
