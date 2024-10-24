@@ -46,3 +46,9 @@
 .academicContent .academicBx:hover p{
   color: whitesmoke;
 }
+.academicContent .academicBx p a{
+  color: hurlywood;
+}
+.academicContent .academicBx p a:hover{
+  color: whitesmoke;
+}
