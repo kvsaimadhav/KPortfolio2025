@@ -8,13 +8,13 @@
 	color: black;
 }
 .contactTb{	
-  padding: 18px 15px;
-  color: black;
+  padding: 15px 12px;
+  color: grey;
   position: relative;
 }
 .contactCard p{
   font-size: 40px;
-  color: black;
+  color: grey;
   font-weight: 400;
 }
 .contactCard a{
@@ -37,13 +37,13 @@
 .contactInfoBx .box .text{
 	display: flex;
 	font-size: 12px;
-	color: black;
+	color: grey;
 	flex-direction: column;
 	font-weight: 300;
 }
 .contactInfoBx .box .text h3,p{
     font-size: 16px;
-	color: black;
+	color: grey;
 	margin-bottom: 0;
 }
 .formBx{	
