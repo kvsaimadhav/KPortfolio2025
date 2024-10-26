@@ -22,7 +22,7 @@ function Menu()
          <li><a href="#" rel="no-opener">Documents</a>
             <ul class="doc">
               <li><a href={resume} rel="no-opener no-referrer" target="_blank">Resume</a></li>
-              <li><a href={cv} rel="no-opener no-referrer" target="_blank">Curriculum Vitae</a></li>
+              <li><a href={cv} rel="no-opener no-referrer" target="_blank">Cover Letter</a></li>
               <li><a href="#" rel="no-opener no-referrer">Certifications</a>
                 <ul class="cert">
                   <li><a href={aws} rel="no-referrer no-opener" target="_blank">Amazon Web Services</a></li>
