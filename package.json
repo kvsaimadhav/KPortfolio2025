@@ -1,7 +1,7 @@
 {
-  "name": "portfolio25k",
+  "name": "KPortfolio2025",
   "version": "3.2.0",
-  "homepage": "https://kvsaimadhav.github.io/portfolio25k",
+  "homepage": "https://kvsaimadhav.github.io/KPortfolio2025",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
